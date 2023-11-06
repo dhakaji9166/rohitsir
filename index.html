@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box">
+            <h3>Box 1</h3>
+            <img src="https://placehold.co/300x150" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, obcaecati dolores. Aspernatur, ipsa,
+                provident distinctio, dolor eligendi officiis voluptatum maiores sint ab dolorum facilis sed dicta
+                doloribus veritatis qui enim.</p>
+        </div>
+        <div class="box">
+            <h3>Box 2</h3>
+            <img src="https://placehold.co/300x150" alt="">
+            <p>Maxime tempore sint accusantium est excepturi, libero voluptas nemo ex nisi. Ipsam nihil tempore deserunt
+                dolore fugiat fugit culpa illo ex, enim delectus? Tenetur dolor porro, odit quod nesciunt hic?</p>
+        </div>
+        <div class="box">
+            <h3>Box 3</h3>
+            <img src="https://placehold.co/300x150" alt="">
+            <p>Eaque officia minus error ut perspiciatis velit molestiae modi excepturi dolor eum? Maxime debitis
+                quisquam dolor tenetur voluptates velit assumenda, quas pariatur? Quam quos odio autem laborum
+                dignissimos quasi ullam.</p>
+        </div>
+        <div class="box">
+            <h3>Box 4</h3>
+            <img src="https://placehold.co/300x150" alt="">
+            <p>Rerum tenetur exercitationem ipsam pariatur culpa eveniet ab id ipsa sit. Quidem inventore nihil illo
+                laboriosam doloremque ipsa corporis, aspernatur commodi reprehenderit recusandae architecto ex
+                exercitationem. Dicta sapiente non nulla.</p>
+        </div>
+
+
+
+    </div>
+    </div>
+
+
+    <script>
+
+
+        let head = document.querySelectorAll("h3")
+        let images = document.querySelectorAll("img")
+        let para = document.querySelectorAll("p")
+        for (let i = 0; i < head.length; i++) {
+            head[i].addEventListener("click", () => {
+               
+                images[i].classList.toggle("mystyle")
+                para[i].classList.toggle("mystyle")
+            })
+        }
+
+
+
+
+        //  function remove() {
+        //             var a = document.querySelector("#remove");
+        //             a.innerHT
+        //         }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .boxes{
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+  }
+  .box {
+    margin: 1rem 2rem;
+    padding: 1rem;
+    width: 23%;
+    border-radius: 1rem;
+    border: 2px solid #515050;
+  }
+  .box img {
+    width: 100%;
+  }
+  .box h2 {
+    cursor: pointer;
+  }
+
+  .mystyle{
+    display: none;
+}
